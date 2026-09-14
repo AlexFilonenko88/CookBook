@@ -1,0 +1,15 @@
+[project]
+name = "cookbook"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "AlexFilonenko88",email = "af88_88@mail.ru"}
+]
+requires-python = ">=3.14"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
