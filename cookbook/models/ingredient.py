@@ -6,7 +6,6 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from cookbook.models.base import Base
 
-
 if TYPE_CHECKING:
     from cookbook.models.recipe import Recipe
 
