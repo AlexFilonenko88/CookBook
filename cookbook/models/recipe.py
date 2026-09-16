@@ -1,8 +1,14 @@
+from typing import TYPE_CHECKING
+
 from sqlalchemy import String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from cookbook.models.base import Base
-from cookbook.models.ingredient import Ingredient
+
+# from cookbook.models.ingredient import Ingredient
+
+if TYPE_CHECKING:
+    from cookbook.models.ingredient import Ingredient
 
 
 class Recipe(Base):
