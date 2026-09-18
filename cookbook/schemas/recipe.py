@@ -13,5 +13,9 @@ class RecipeCreate(RecipeBase):
     ingredient: list[IngredientCreate]
 
 
-class RecipeUpdate(RecipeBase):
+class RecipeUpdate(BaseModel):
+    title: str | None = None
+    description: str | None = None
     ingredient: list[IngredientRead] = Field(default_factory=list)
+
+    model_config = ConfigDict(from_attributes=True)
