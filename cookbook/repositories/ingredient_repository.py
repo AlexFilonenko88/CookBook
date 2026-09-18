@@ -6,7 +6,7 @@ from cookbook.models import Ingredient
 
 class IngredientRepository:
     @staticmethod
-    async def get_by(db: AsyncSession, name: str):
+    async def get_by_name(db: AsyncSession, name: str):
         stmt = select(Ingredient).where(Ingredient.name == name)
         result = await db.execute(stmt)
 
