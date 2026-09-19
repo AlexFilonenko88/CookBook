@@ -1,5 +1,5 @@
 # Настройка проекта CookBook
-
+https://www.youtube.com/watch?v=nbkidrjDCko&list=PLArevA8iaA-FXFSz35HJpGWpbe8SHcL_Z&index=4
 ## Клонирование репозитория
 
 ```bash
